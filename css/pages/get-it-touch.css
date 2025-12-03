@@ -1,0 +1,41 @@
+.get-it-touch{
+    height: 100vh;
+    background-image: url(/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.get-it-touch__container{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    position: relative;
+}
+
+.get-it-touch__block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.get-it-touch__title{
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    text-align: center;
+}
+
+.get-it-touch__btn{
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+}
+
+.get-it-touch__btn-text{
+    color: white;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}

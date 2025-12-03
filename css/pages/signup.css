@@ -1,0 +1,45 @@
+.footer{
+    padding: 0;
+    margin: 0;
+}
+
+.get-it-touch__signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #171819;
+    width: 100%;
+    height: 100px;
+    gap: 70px;
+}
+
+.get-it-touch__signup-text{
+    color: #FFFFFF; 
+}
+
+.get-it-touch__signup-signup{
+    display: flex;
+    width: 400px;
+    height: 30px;
+}
+
+.get-it-touch__singup-input{
+    position: relative;
+    width: 250px;
+    border: 1px #979797 solid;
+}
+
+.get-it-touch__signup-signup input::placeholder{
+    color: #48555B;
+    position: relative;
+    left: 15px;
+}
+
+.get-it-touch__signup-btn{
+    width: 150px;
+    background-color: #00A4E5;
+}
+
+.get-it-touch__signup-btn-link{
+    color: white;
+}

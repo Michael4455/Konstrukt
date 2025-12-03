@@ -1,0 +1,46 @@
+.header{
+  height: 100vh;
+  background-image: url(/images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header__container{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.header__block{
+display: flex;
+}
+
+.header__title{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 5.71px;
+}
+
+.header__text{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.header__scroll{
+  color: white;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 3.7px;
+}

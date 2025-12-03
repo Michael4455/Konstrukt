@@ -1,0 +1,76 @@
+.capabilities{
+    height: 50vh;
+}
+
+
+
+.capabilities__block{
+    display: flex;
+    position: relative;
+}
+
+.capabilities__title{
+    position: relative;
+}
+
+.capabilities__title::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 52px;
+    height: 2px;
+    background-image: url('/images/Line.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.capabilities__text{
+    position: absolute;
+    left: 353px;
+    font-size: 12.5px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    max-width: 390px;
+    color: #48555B;
+}
+
+.capabilities__btn{
+    position: absolute;
+    right: 0px;
+    width: 150px;
+    height: 40px;
+    background-color: #00A4E5;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+}
+
+.capabilities__link{
+    color: white;
+}
+
+.capabilities__services{
+    position: absolute;
+    top: 116px;
+    display: flex;
+    gap: 28px;
+}
+
+.capabilities__item{
+    display: flex;
+    flex-direction: column;
+    padding: 22px;
+    width: 295px;
+    height: 330px;
+    border: 1px #E6E6E6 solid;
+    gap: 25px;
+}
+
+.capabilities__item-img{
+    width: 62px;
+    height: 75px;
+}
+
+.capabilities__item-title{
+    font-size: 16px;
+}

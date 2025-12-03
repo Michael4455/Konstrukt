@@ -1,0 +1,92 @@
+.footer{
+    background-color: #141A20;
+    height: 240px;
+}
+
+.footer__container{
+    position: relative;
+}
+
+.footer__block{
+    display: flex;
+    position: relative;
+    top: 42px;
+    gap: 55px;
+}
+
+.footer__company{
+    display: flex;
+    width: 240px;
+    height: 148px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer__company-title{
+    color: white;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+}
+
+.footer__company-img{
+    width: 100px;
+    height: 23px;
+}
+
+.footer__company-text{
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: white;
+}
+
+.footer__links-title{
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.85px;
+    color: white;
+}
+
+.footer__links{
+    display: flex;
+    gap: 38px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.85px;
+}
+
+.footer__item{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer__contact-us{
+    width: 140px;
+}
+
+.footer__contact-us-title{
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.85px;
+    color: white;
+}
+
+.footer__contact-us-links{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    gap: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.85px;
+    color: white;
+}
+
+.footer__contacts{
+    display: flex;
+    gap: 15px;
+}

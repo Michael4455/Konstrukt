@@ -1,0 +1,39 @@
+.wrapper{
+  position: relative;
+  overflow: auto;
+  min-height: 100%;
+}
+
+[class*='__container']{
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.footer{
+  flex: 1 1 auto;
+}
+
+.color_blue{
+  color: #00A4E5;
+}
+
+.color_grey{
+  color: #48555B;
+}
+
+
+
+.small-text{
+  font-size: 14.5px;
+  line-height: 23px;
+  letter-spacing: 0.19px;
+  font-weight: 400;
+}
+
+.text-xl{
+  font-size: 24px;
+}
