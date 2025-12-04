@@ -73,4 +73,9 @@
 
 .capabilities__item-title{
     font-size: 16px;
+    font-family: OpenSans-Bold, sans-serif;
+}
+
+.capabilities__item-text{
+    font-family: OpenSans, sans-serif;
 }

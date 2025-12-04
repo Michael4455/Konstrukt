@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Bebas;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../fonts/ofont.ru_Bebas\ Neue.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../../fonts/ofont.ru_Open\ Sans.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-600;
+    font-style: normal;
+    font-weight: 600;
+    src: url(../../fonts/ofont.ru_Open\ Sans.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Bold;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../../fonts/ofont.ru_Open\ Sans\ bold.ttf);
+}

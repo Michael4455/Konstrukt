@@ -37,3 +37,11 @@
 .text-xl{
   font-size: 24px;
 }
+
+.font-OpenSans{
+  font-family: OpenSans, sans-serif;
+}
+
+.font-OpenSans-Bold{
+  font-family: OpenSans-Bold, sans-serif;
+}
